@@ -54,9 +54,7 @@
    54  git commit -m "Singaram Subramanyan added to collaborators"
    55  git push
    56  git remote set-url origin https://<token>@github.com/<username>/<repo>
-   57  git remote set-url origin https://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@github.com/singaram-subramanyan/a1-collab-singaram-subramanyan.git
    58  git push
-   59  git remote set-url origin https://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@github.com/singaram-subramanyan/a1-collab-singaram-subramanyan.git
    60  git push
    61  git branch
    62  git clone https://github.com/singaram-subramanyan/a1-collab-singaram-subramanyan.git
@@ -171,7 +169,6 @@
   171  ls
   172  cd  mini-assignments-singaram-subramanyan
   173  git commit -m "Added Log and text file"
-  174  git remote set-url origin https://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@github.com/CS131-BigDataProcessing/mini-assignments-singaram-subramanyan.git
   175  git commit -m "Added Log and text file"
   176  git config 
   177   git config --global user.email "you@example.com"
