@@ -1,0 +1,90 @@
+    1  ping 172.29.96.201
+    2  ping 172.20.25.9
+    3  git clone git@github.com:your/github/repository
+    4  git clone git@github.com:a1-collab-singaram-subramanyan
+    5  git clone git@https://github.com/singaram-subramanyan/a1-collab-singaram-subramanyan
+    6  git clone https://github.com/singaram-subramanyan/a1-collab-singaram-subramanyan.git
+    7  git branch username-colab
+    8  cd
+    9  ls
+   10  cd a1-collab-singaram-subramanyan
+   11  git branch username-colab
+   12  git checkout username-collab
+   13  git branch username-colab
+   14  git branch
+   15  git checkout <usernam-colab>
+   16  git checkout <username-colab>
+   17  git checkout username-collab
+   18  git checkout <username-collab>
+   19  cd
+   20  ls
+   21  cd a1-collab-singaram-subramanyan
+   22  ls
+   23  collaborators.md
+   24  cd collaborators.md
+   25  cd Collaborators.md
+   26  vi Collaborators.md
+   27  passwd
+   28  wget www.github.com
+   29  172.20.25.9
+   30  wget www.github.com
+   31  ls
+   32  cd a1-collab-singaram-subramanyan
+   33  git  branch
+   34  git branch username-colab
+   35  ls
+   36  cd Collaborators.md
+   37  vi Collaborators.md
+   38  ls
+   39  cd a1-collab-singaram-subramanyan
+   40  ls 
+   41  vi Collaborators.md
+   42  git status
+   43  git push --set-upstream origin username-collab
+   44  git add Collaborators.md
+   45  git pull origin main
+   46  git checkout main
+   47  git merge username-collab
+   48  git add Collaborators.md
+   49  git branch
+   50  git push --set-upstream origin username-colab
+   51  git commit -m "Singaram Subramanyan added to collaborators"
+   52  git config user.email "singarams246@gmail.com"
+   53  git config user.name "Singaram"
+   54  git commit -m "Singaram Subramanyan added to collaborators"
+   55  git push
+   56  git remote set-url origin https://<token>@github.com/<username>/<repo>
+   57  git remote set-url origin https://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@github.com/singaram-subramanyan/a1-collab-singaram-subramanyan.git
+   58  git push
+   59  git remote set-url origin https://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@github.com/singaram-subramanyan/a1-collab-singaram-subramanyan.git
+   60  git push
+   61  git branch
+   62  git clone https://github.com/singaram-subramanyan/a1-collab-singaram-subramanyan.git
+   63  ls
+   64  cd a1-collab-singaram-subramanyan
+   65  ls
+   66  passwd
+   67  cd
+   68  ls
+   69  cd CS131_fa24_datafiles
+   70  ls
+   71  cd Lec02
+   72  ls
+   73  egrep wor goodluck.txt
+   74  egrep dred goodluck.txt
+   75  egrep 'Good luck, babe' goodluck.txt
+   76  egrep 'Good luck, babe' | wc
+   77  cd
+   78  ls
+   79  cd CS131_fa24_datafiles
+   80  ls
+   81  cd Lec02
+   82  ls
+   83  egrep wor goodluck.txt
+   84  egrep dred goodluck.txt
+   85  egrep 'Good luck, babe' goodluck.txt
+   86  egrep 'Good luck, babe' goodluck.txt | wc -l -w
+   87  egrep 'Good luck, babe' goodluck.txt | wc -l -w > Subramanyan-S_a2_counts.txt
+   88  ls
+   89  vi Subramanyan-S_a2_counts.txt
+   90  history > Subramanyan-S_a2_cmds.log
