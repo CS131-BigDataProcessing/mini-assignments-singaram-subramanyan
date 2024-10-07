@@ -1,0 +1,7 @@
+1. Airlines : Alaska, American, Delta, Jet Blue, Southwest, United
+   Command: awk -F, '{print $4}' airline_stats.csv | sort | uniq
+
+2. A) Airlines : Alaska, American, Delta, Jet Blue, Southwest, United
+      Command: awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+   B) Airlines : Alaska, American, Delta, Jet Blue, Southwest, United
+      Command: awk -v Threshold=15 -F, '$1 > Threshold {print $4}' airline_stats.csv | sort | uniq
