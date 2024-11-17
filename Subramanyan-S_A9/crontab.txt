@@ -1,0 +1,3 @@
+0 2 * * * rm -r /mnt/scratch/FA24_CS131_Jessica/ssubramanyanfa24/temp
+0 3 * * 0 tar -cz /mnt/scratch/FA24_CS131_Jessica/ssubramanyanfa24/backup.tar /mnt/scratch/FA24_CS131_Jessica/ssubramanyanfa24/backups
+30 8 * * * echo -e "Today's disk usage report:\n$(df -h)" | mail -s "Disk Usage Report" test-email@gmail.com
