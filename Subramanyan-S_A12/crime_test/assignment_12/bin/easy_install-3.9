@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' /mnt/scratch/FA24_CS131_Jessica/ssubramanyanfa24/mini-assignments-singaram-subramanyan/Subramanyan-S_A12/crime_test/assignment_12/bin/python3 "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from setuptools.command.easy_install import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
